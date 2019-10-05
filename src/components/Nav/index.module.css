@@ -1,0 +1,37 @@
+.logo {
+    height: 40px;
+    width: 150px;
+    align-self: center;
+}
+.container ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+}
+.container ul :nth-child(4) {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.container button {
+    background-color: #EAA81A;
+    border: none;
+    padding: 10px 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.container button:hover {
+    cursor: pointer;
+}
+.container li {
+    align-self: center;
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+.container li a {
+    color: #615A2C;
+    text-decoration: none;
+}
+
+.container {
+    padding: 0 20px;
+    display: flex;
+}

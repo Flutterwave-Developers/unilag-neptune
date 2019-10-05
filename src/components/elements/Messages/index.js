@@ -6,8 +6,7 @@ const Message = ({children, recieved}) => {
             <div className={Styles.message} style={{marginLeft: !recieved && 'auto'}}>
                 {children}
             </div>
-            <p style={{textAlign: !recieved && 'right'}}>You</p>
-            <p style={{textAlign: !recieved && 'right'}}>2:34pm</p>
+            <p style={{textAlign: !recieved && 'right'}}>You<br />2:34pm</p>
         </div>
     )
 }

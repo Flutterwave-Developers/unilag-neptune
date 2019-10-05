@@ -1,16 +1,15 @@
- import firebase from 'firebase';
- var firebaseConfig = {
-    apiKey: "AIzaSyBz0ayDj0UeX4Ys2QmKGxZ3CjXsT-Egx-c",
-    authDomain: "neptune-9fad7.firebaseapp.com",
-    databaseURL: "https://neptune-9fad7.firebaseio.com",
-    projectId: "neptune-9fad7",
-    storageBucket: "",
-    messagingSenderId: "67707719960",
-    appId: "1:67707719960:web:5fc025bd72a9d6e9eb0e6d",
-    measurementId: "G-YRLEQZKFN5"
-  };
-  // Initialize Firebase
-  const app = firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
+import firebase from 'firebase';
+var firebaseConfig = {
+   apiKey: process.env.REACT_APP_API_KEY,
+   authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+   databaseURL: process.env.REACT_APP_DATABASE_URL,
+   projectId: process.env.REACT_APPPROJECT_ID,
+   storageBucket: process.env.REACT_APP_storageBucket,
+   messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+   appId: process.env.REACT_APP_APP_ID,
+   measurementId: process.env.REACT_APP_MEASUREMENT_ID
+ };
+ // Initialize Firebase
+ const app = firebase.initializeApp(firebaseConfig);
 
-  export default app;
+ export default app;

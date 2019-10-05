@@ -13,7 +13,8 @@ const Auth = ({signup}) => {
     const handleSignUp = (email, password) => {
         console.log(email)
         firebase.auth().createUserWithEmailAndPassword(email, password).then((user) => {
-            console.log("CREATED")
+            const cUser = firebase.auth().currentUser;
+            cUser.updateProfile({displayName: state.name})
         })
         .catch((err) => {
             console.log(err);
