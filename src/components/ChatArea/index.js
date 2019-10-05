@@ -7,31 +7,28 @@ const ChatArea = () => {
         <div className={Styles.ChatArea}>
             <div className={Styles.mainChat}>
                 <div className={Styles.conversation}>
-                    <Message>
+                    <Message from="Dami" time="2:00pm">
                         Hello
                     </Message>
-                    <Message recieved>
-                            Let’s jump into Rust by working through a hands-on project together! This chapter introduces you to a few common Rust concepts by showing you how to use them in a real program. You’ll learn about let, match, methods, associated functions, using external crates, and more! The following chapters will explore these ideas in more detail. In this chapter, you’ll practice the fundamentals.
+                    <Message from="Dami" time="2:01pm">
+                        I need help learning the rust programming language. I have homework i need to get completed and i thought you could help walk me to it
+                    </Message>
+                    <Message recieved from="Tutor Dan" time="2:02pm">
+                        Awesome. Thanks for reaching out to me.
+                            Let’s jump into Rust by working through a hands-on project together! you’ll practice the fundamentals.
 
                             We’ll implement a classic beginner programming problem: a guessing game. Here’s how it works: the program will generate a random integer between 1 and 100. It will then prompt the player to enter a guess. After a guess is entered, the program will indicate whether the guess is too low or too high. If the guess is correct, the game will print a congratulatory message and exit.
                     </Message>
-                    <Message recieved>
-                    We’ll implement a classic beginner programming problem: a guessing game. Here’s how it works: the program will generate a random integer between 1 and 100. It will then prompt the player to enter a guess. After a guess is entered, the program will indicate whether the guess is too low or too high. If the guess is correct, the game will print a congratulatory message and exit.
+                    <Message recieved from="Tutor Dan" time="2:03pm">
+                            Let’s get to it.
                     </Message>
-                    <Message>
+                    <Message time="2:04pm">
                         Thanks a lot. What about the differential equation?
                     </Message>
-                    <Message recieved>
-                            Let’s jump into Rust by working through a hands-on project together! This chapter introduces you to a few common Rust concepts by showing you how to use them in a real program. You’ll learn about let, match, methods, associated functions, using external crates, and more! The following chapters will explore these ideas in more detail. In this chapter, you’ll practice the fundamentals.
-
-                            We’ll implement a classic beginner programming problem: a guessing game. Here’s how it works: the program will generate a random integer between 1 and 100. It will then prompt the player to enter a guess. After a guess is entered, the program will indicate whether the guess is too low or too high. If the guess is correct, the game will print a congratulatory message and exit.
+                    <Message recieved from="Tutor Dan" time="2:05pm">
+                        Oh lol i love caluclus. We'll get to that later!
                     </Message>
-                    <Message recieved>
-                    We’ll implement a classic beginner programming problem: a guessing game. Here’s how it works: the program will generate a random integer between 1 and 100. It will then prompt the player to enter a guess. After a guess is entered, the program will indicate whether the guess is too low or too high. If the guess is correct, the game will print a congratulatory message and exit.
-                    </Message>
-                    <Message>
-                        Thanks a lot. What about the differential equation?
-                    </Message>
+                    
                 </div>
             </div>
             <div className={Styles.chatInput}>
