@@ -3,4 +3,32 @@
     border-radius: 20px;
     width: 100%;
     height: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+.container span {
+    
+    color: rgba(0, 0, 0, 0.8);
+}
+.container p {
+    margin: 0;
+    padding: 0;
+}
+.f {
+    margin-top: 10px;
+}
+.a {
+    text-align: center;
+    display: block;
+    margin: 0!important;
+    font-size: 18px;
+    margin-left: 10px;
+    justify-self: center;
+}
+.num {
+    text-align: center;
+    margin: 0!important;
+    display: block;
+    font-size: 22px;
+    justify-self: center;
 }

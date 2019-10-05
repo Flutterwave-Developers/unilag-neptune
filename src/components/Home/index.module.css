@@ -43,3 +43,25 @@
     color: rgba(0, 0, 0, 0.8);
     margin: 8% 5% 0 5%;
 }
+.line {
+    margin-top: 50px;
+}
+.section {
+    margin: 90px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section img {
+    align-self: center;
+}
+.caption button {
+    background: #EAA81A;
+    border-radius: 7px;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+.caption {
+    align-self: center;
+    max-width: 30%;
+}
