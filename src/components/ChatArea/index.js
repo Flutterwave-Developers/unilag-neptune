@@ -22,7 +22,7 @@ const ChatArea = () => {
                     <Message recieved from="Tutor Dan" time="2:03pm">
                             Let’s get to it.
                     </Message>
-                    <Message time="2:04pm">
+                    <Message time="2:04pm" from="Dami">
                         Thanks a lot. What about the differential equation?
                     </Message>
                     <Message recieved from="Tutor Dan" time="2:05pm">
